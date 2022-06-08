@@ -7809,6 +7809,16 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-body {
-  font: 100% Helvetica, sans-serif;
-  color: #333; }
+.col {
+  padding-right: 0; }
+
+.flex-column {
+  width: 100%; }
+
+.nav-link > .active {
+  padding-right: 0; }
+
+#err {
+  display: none;
+  border-radius: 30px;
+  border: solid 1px red; }
