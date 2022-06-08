@@ -1,0 +1,27 @@
+{
+  "name": "searchpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DariaSuhinina/SearchPage.git"
+  },
+  "author": "Daria Suhinina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DariaSuhinina/SearchPage/issues"
+  },
+  "homepage": "https://github.com/DariaSuhinina/SearchPage#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "bootstrap-sass": "^3.4.3",
+    "jquery": "^3.6.0",
+    "node-sass": "^7.0.1",
+    "popper.js": "^1.16.1"
+  }
+}

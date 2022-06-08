@@ -1,0 +1,19 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.col {
+  padding-right: 0;
+}
+
+.flex-column {
+  width: 100%;
+}
+
+.nav-link > .active {
+  padding-right: 0;
+}
+
+#err {
+  display: none;
+  border-radius: 30px;
+  border: solid 1px red;
+}
