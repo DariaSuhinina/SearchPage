@@ -102,4 +102,28 @@ function validate() {
   });
 }
 
+const clearBtn = document.getElementById('clear');
+clearBtn.addEventListener('click', () => {
+  inputEmail4.value = '';
+  inputPassword4.value = ''
+})
 
+let country = 'https://raw.githubusercontent.com/russ666/all-countries-and-cities-json/master/countries.json';
+fetch(country)
+  .then(response => response.json())
+  .then(countries => {
+    for(let key in countries){
+      getCountry(key)
+      console.log(key);
+    }
+  });
+// debugger;
+
+function getCountry(country) {
+  let val = document.createElement('option');
+  val.value = country;
+  val.innerHTML = country;
+  document.querySelector('#inputAddress').appendChild(val);
+  // document.querySelector('#inputAddress2').appendChild(val);
+
+}
